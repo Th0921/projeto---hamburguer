@@ -1,0 +1,93 @@
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+
+*{
+    margin: 0;
+    box-sizing: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.imagem-fundo{
+    position: absolute;
+}
+
+.container-button{
+    position: absolute;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 420px;
+    
+}
+
+button{
+    background-color: #ffffff;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 110px;
+    
+}
+
+button:hover{
+    opacity: 0.8;
+    font-size: 12px;
+    
+}
+
+.div-ul{
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+   
+}
+
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px; /*Serve para dizer que eu preciso de 3 colunas com o tamanho de 200px*/
+    gap: 20px;
+    justify-content: center;
+   
+}
+
+li{
+    border: 2px solid #75d472;
+    border-radius: 5px;
+   padding: 5px;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+p{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.preço-item{
+    font-weight: bold;
+    color: #45eb8d;;
+}
